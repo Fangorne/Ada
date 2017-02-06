@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ada.Program.Console", "Program\Console\Ada.Program.Console.csproj", "{56EAEB13-FE94-45D6-B168-4720CD7E6806}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddOn", "AddOn", "{72A4C7ED-506F-47DC-BC14-2CB4F2E4B5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ada.AddOn.Kodi", "AddOn\Kodi\Ada.AddOn.Kodi.csproj", "{E7F3A286-354B-4329-9AC0-4616A8C275F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{56EAEB13-FE94-45D6-B168-4720CD7E6806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56EAEB13-FE94-45D6-B168-4720CD7E6806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56EAEB13-FE94-45D6-B168-4720CD7E6806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F3A286-354B-4329-9AC0-4616A8C275F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F3A286-354B-4329-9AC0-4616A8C275F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F3A286-354B-4329-9AC0-4616A8C275F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F3A286-354B-4329-9AC0-4616A8C275F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7F3A286-354B-4329-9AC0-4616A8C275F8} = {72A4C7ED-506F-47DC-BC14-2CB4F2E4B5F7}
 	EndGlobalSection
 EndGlobal
