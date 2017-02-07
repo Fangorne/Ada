@@ -11,7 +11,7 @@ namespace KODIRPC.List.Filter
    {
        contains,
        doesnotcontain,
-       [global::System.Runtime.Serialization.EnumMember(Value="is")]
+       [EnumMember(Value="is")]
        Is,
        isnot,
        startswith,

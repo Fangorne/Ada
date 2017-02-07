@@ -1,14 +1,14 @@
-using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+
 #pragma warning disable CS0108
 
-namespace KODIRPC.Methods
+namespace Ada.AddOn.Kodi.Methods
 {
    public partial class Addons
    {
-        private readonly Client _client;
-          public Addons(Client client)
+        private readonly Ada.AddOn.Kodi.Client _client;
+          public Addons(Ada.AddOn.Kodi.Client client)
           {
               _client = client;
           }

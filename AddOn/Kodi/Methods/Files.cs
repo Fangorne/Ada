@@ -3,12 +3,12 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 #pragma warning disable CS0108
 
-namespace KODIRPC.Methods
+namespace Ada.AddOn.Kodi.Methods
 {
    public partial class Files
    {
-        private readonly Client _client;
-          public Files(Client client)
+        private readonly Ada.AddOn.Kodi.Client _client;
+          public Files(Ada.AddOn.Kodi.Client client)
           {
               _client = client;
           }
