@@ -1,13 +1,15 @@
 using System;
-using System.Net;
 using System.IO;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Ada.AddOn.Kodi.Methods;
+using KODIRPC;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 
-namespace KODIRPC
+namespace Ada.AddOn.Kodi
 {
 
     public partial class Client:IDisposable
@@ -16,8 +18,8 @@ namespace KODIRPC
         private readonly ConnectionSettings _settings;
         private uint JsonRpcId = 0;
 
-        public Methods.Addons Addons { get; private set; }
-        public Methods.Application Application { get; private set; }
+        public Addons Addons { get; private set; }
+        public Application Application { get; private set; }
         public Methods.AudioLibrary AudioLibrary { get; private set; }
         public Methods.Favourites Favourites { get; private set; }
         public Methods.Files Files { get; private set; }
@@ -40,8 +42,8 @@ namespace KODIRPC
             Serializer = new JsonSerializer();
             Serializer.Converters.Add(new StringEnumConverter());
             _settings = settings;
-                       Addons = new Methods.Addons(this);
-           Application = new Methods.Application(this);
+                       Addons = new Addons(this);
+           Application = new Application(this);
            AudioLibrary = new Methods.AudioLibrary(this);
            Favourites = new Methods.Favourites(this);
            Files = new Methods.Files(this);

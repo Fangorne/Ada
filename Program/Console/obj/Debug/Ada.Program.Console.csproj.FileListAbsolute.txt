@@ -4,3 +4,9 @@ D:\Dev\Git\Ada\Program\Console\bin\Debug\Ada.Program.Console.pdb
 D:\Dev\Git\Ada\Program\Console\obj\Debug\Ada.Program.Console.csprojResolveAssemblyReference.cache
 D:\Dev\Git\Ada\Program\Console\obj\Debug\Ada.Program.Console.exe
 D:\Dev\Git\Ada\Program\Console\obj\Debug\Ada.Program.Console.pdb
+d:\Perso\Ada\Program\Console\bin\Debug\Ada.Program.Console.exe.config
+d:\Perso\Ada\Program\Console\obj\Debug\Ada.Program.Console.exe
+d:\Perso\Ada\Program\Console\obj\Debug\Ada.Program.Console.pdb
+d:\Perso\Ada\Program\Console\bin\Debug\Ada.Program.Console.exe
+d:\Perso\Ada\Program\Console\bin\Debug\Ada.Program.Console.pdb
+d:\Perso\Ada\Program\Console\obj\Debug\Ada.Program.Console.csprojResolveAssemblyReference.cache

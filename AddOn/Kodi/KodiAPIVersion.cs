@@ -1,9 +1,7 @@
-using System;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
+
 #pragma warning disable CS0108
 
-namespace KODIRPC
+namespace Ada.AddOn.Kodi
 {
   struct Version
   {

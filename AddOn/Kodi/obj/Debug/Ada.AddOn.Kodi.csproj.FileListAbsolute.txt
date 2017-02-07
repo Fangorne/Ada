@@ -3,3 +3,10 @@ D:\Dev\Git\Ada\AddOn\Kodi\bin\Debug\Ada.AddOn.Kodi.pdb
 D:\Dev\Git\Ada\AddOn\Kodi\obj\Debug\Ada.AddOn.Kodi.dll
 D:\Dev\Git\Ada\AddOn\Kodi\obj\Debug\Ada.AddOn.Kodi.pdb
 D:\Dev\Git\Ada\AddOn\Kodi\obj\Debug\Ada.AddOn.Kodi.csprojResolveAssemblyReference.cache
+d:\Perso\Ada\AddOn\Kodi\obj\Debug\Ada.AddOn.Kodi.csprojResolveAssemblyReference.cache
+d:\Perso\Ada\AddOn\Kodi\bin\Debug\Ada.AddOn.Kodi.dll
+d:\Perso\Ada\AddOn\Kodi\bin\Debug\Ada.AddOn.Kodi.pdb
+d:\Perso\Ada\AddOn\Kodi\bin\Debug\Newtonsoft.Json.dll
+d:\Perso\Ada\AddOn\Kodi\bin\Debug\Newtonsoft.Json.xml
+d:\Perso\Ada\AddOn\Kodi\obj\Debug\Ada.AddOn.Kodi.dll
+d:\Perso\Ada\AddOn\Kodi\obj\Debug\Ada.AddOn.Kodi.pdb
